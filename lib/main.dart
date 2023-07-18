@@ -1,17 +1,6 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-// Author: Digambar Chaudhari
-// Author: Renuka Nathjogi
-// Author: Bhavesh Patil
 
 import 'dart:async';
-
-import 'package:feed_food/utils/globals.dart';
-import 'package:feed_food/volunteer/history/v_history_page.dart';
-import 'package:feed_food/volunteer/profile/v_edit_profile.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:feed_food/authenticate/forgot_password.dart';
 import 'package:feed_food/authenticate/login_page.dart';
@@ -26,8 +15,15 @@ import 'package:feed_food/intro/welcome_page.dart';
 // ignore: unused_import
 import 'package:feed_food/ngo/home/n_home_page.dart';
 import 'package:feed_food/ngo/n_main_page.dart';
+import 'package:feed_food/utils/globals.dart';
 import 'package:feed_food/utils/routes.dart';
+import 'package:feed_food/volunteer/history/v_history_page.dart';
+import 'package:feed_food/volunteer/profile/v_edit_profile.dart';
 import 'package:feed_food/volunteer/v_main_page.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

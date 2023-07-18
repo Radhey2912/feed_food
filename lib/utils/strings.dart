@@ -1,10 +1,7 @@
-// Author: Prachi Nathjogi
-// Author: Digambar Chaudhari
-
 class FeedFoodStrings {
   // Network
 
-  static const url = "https://feed-n-joy.000webhostapp.com";
+  static const url = "https://feednjoynew.000webhostapp.com";
   // static const url = "http://10.0.2.2/feednjoy/app/";
   // static const url = "http://192.168.182.152/feedfood/";
 

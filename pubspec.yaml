@@ -29,7 +29,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  google_fonts: ^3.0.1
+
   
   flutter:
     sdk: flutter
@@ -54,6 +54,7 @@ dependencies:
   geocoding: ^2.0.5
   permission_handler: ^10.2.0
   maps_launcher: ^2.2.0
+  google_fonts: ^4.0.1
 
 flutter_native_splash:
   image: assets/images/logo.png
